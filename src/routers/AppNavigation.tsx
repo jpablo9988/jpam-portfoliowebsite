@@ -17,7 +17,7 @@ const AppNavigation = () => {
             <Route path="/projects/art" element={<ArtProjects />}></Route>
             <Route path="/projects/music" element={<MusicProjects />}></Route>
             <Route path="/projects/dev" element={<DevProjects />}></Route>
-            <Route path="/about" element={<About />}></Route>
+            <Route path="/about/" element={<About />}></Route>
             <Route path="/contact_me" element={<ContactMe />}></Route>
             <Route path="/projects/harmonic-rhythm/:id" element={<HarmonicRhythmBlog />}></Route>
             <Route path="/projects/manafuse/:id" element={<ManafuseBlog />}></Route>
