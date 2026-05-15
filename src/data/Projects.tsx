@@ -1,4 +1,3 @@
-import Placeholder from '@/assets/project_thumbnails/placeholder_space_adventure.jpg'
 import HarmonicScale from '@/assets/project_thumbnails/hRhythmThumbnail.png'
 import Manafuse from '@/assets/project_thumbnails/MainMenuIllustration.png'
 import SoK from '@/assets/project_thumbnails/TitleScreen.png'
