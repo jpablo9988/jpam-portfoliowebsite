@@ -43,7 +43,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Build with Vite
-        run: npm run build
+        run: npm run build -- --base "${{ steps.pages.outputs.base_path }}"
 
       - name: Upload production build
         uses: actions/upload-pages-artifact@v3
